@@ -15,9 +15,9 @@ Create a basic calculator with addition feature.
 
 ## Bonus Features
 
-- [ ] User can use all the basic arithmetic operations like (addition, subtraction, multiplication and divison).
-- [ ] User can use `--help` or `-h` flag to get the sub-commands of command.
-- [ ] **Power of** and **Square Root of** operation.
+- [x] User can use all the basic arithmetic operations like (addition, subtraction, multiplication and divison).
+- [x] User can use `--help` or `-h` flag to get the sub-commands of command.
+- [x] **Power of** and **Square Root of** operation.
 
 ## Useful links and resources
 
