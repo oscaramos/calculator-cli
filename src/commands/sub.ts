@@ -1,5 +1,4 @@
-import {Command, flags} from '@oclif/command'
-import { getResult } from "../utils";
+import { Command } from "@oclif/command";
 
 export default class Sub extends Command {
   static description = 'Subtract two numbers (LHS - RHS)'
