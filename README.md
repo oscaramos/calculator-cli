@@ -16,7 +16,7 @@ $ npm install -g @oscaramos/calculator
 $ calculator COMMAND
 running command...
 $ calculator (-v|--version|version)
-@oscaramos/calculator/0.1.2 win32-x64 node-v12.18.3
+@oscaramos/calculator/0.1.3 win32-x64 node-v12.18.3
 $ calculator --help [COMMAND]
 USAGE
   $ calculator COMMAND
@@ -52,7 +52,7 @@ EXAMPLES
   $ calculator add odd 2 1 2 1
 ```
 
-_See code: [src\commands\add.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.2/src\commands\add.ts)_
+_See code: [src\commands\add.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.3/src\commands\add.ts)_
 
 ## `calculator div [LHS] [RHS]`
 
@@ -71,7 +71,7 @@ EXAMPLES
   $ calculator div 3 2
 ```
 
-_See code: [src\commands\div.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.2/src\commands\div.ts)_
+_See code: [src\commands\div.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.3/src\commands\div.ts)_
 
 ## `calculator help [COMMAND]`
 
@@ -109,7 +109,7 @@ EXAMPLES
   $ calculator mult odd 4 3 4 3
 ```
 
-_See code: [src\commands\mult.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.2/src\commands\mult.ts)_
+_See code: [src\commands\mult.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.3/src\commands\mult.ts)_
 
 ## `calculator pow [BASE] [EXP]`
 
@@ -129,7 +129,7 @@ EXAMPLES
   $ calculator pow 5 0
 ```
 
-_See code: [src\commands\pow.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.2/src\commands\pow.ts)_
+_See code: [src\commands\pow.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.3/src\commands\pow.ts)_
 
 ## `calculator sqrt [X]`
 
@@ -148,7 +148,7 @@ EXAMPLES
   $ calculator sqrt 9.87
 ```
 
-_See code: [src\commands\sqrt.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.2/src\commands\sqrt.ts)_
+_See code: [src\commands\sqrt.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.3/src\commands\sqrt.ts)_
 
 ## `calculator sub [LHS] [RHS]`
 
@@ -166,5 +166,5 @@ EXAMPLE
   $ calculator sub 5 2
 ```
 
-_See code: [src\commands\sub.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.2/src\commands\sub.ts)_
+_See code: [src\commands\sub.ts](https://github.com/oscaramos/calculator-cli/blob/v0.1.3/src\commands\sub.ts)_
 <!-- commandsstop -->
