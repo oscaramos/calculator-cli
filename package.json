@@ -1,11 +1,10 @@
 {
-  "name": "calculator",
-  "version": "0.0.0",
-  "author": "Oscar @oscaramos",
+  "name": "@oscaramos/calculator",
+  "version": "0.1.2",
+  "author": "Oscar",
   "bin": {
     "calculator": "./bin/run"
   },
-  "bugs": "https://github.com/oscaramos/calculator/issues",
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
@@ -32,11 +31,9 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/oscaramos/calculator",
   "keywords": [
     "oclif"
   ],
-  "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
@@ -45,7 +42,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "oscaramos/calculator",
+  "repository": "oscaramos/calculator-cli",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
