@@ -2,9 +2,15 @@ import {Command} from '@oclif/command'
 import { getResult } from "../utils";
 
 export default class Add extends Command {
-  static description = 'describe the command here'
+  static description = 'Add an set of numbers'
   static strict = false
   static args = [
+    {
+      name: 'mode',
+      description: 'choose only these numbers',
+      required: false,
+      options: ['even', 'odd']
+    },
     {
       name: 'numbers',
       description: 'numbers to add, variadic',
