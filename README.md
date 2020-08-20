@@ -9,6 +9,7 @@ Calculator on the cli. Supports add, sub, mult and div.
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
 <!-- usage -->
 ```sh-session
