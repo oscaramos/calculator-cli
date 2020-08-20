@@ -1,11 +1,7 @@
 calculator
 ==========
 
-
-
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/calculator.svg)](https://npmjs.org/package/calculator)
-[![Downloads/week](https://img.shields.io/npm/dw/calculator.svg)](https://npmjs.org/package/calculator)
 [![License](https://img.shields.io/npm/l/calculator.svg)](https://github.com/oscaramos/calculator/blob/master/package.json)
 
 <!-- toc -->
@@ -28,26 +24,53 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`calculator add [NUMBERS]`](#calculator-add-numbers)
+* [`calculator add [MODE] [NUMBERS]`](#calculator-add-mode-numbers)
+* [`calculator div [LHS] [RHS]`](#calculator-div-lhs-rhs)
 * [`calculator help [COMMAND]`](#calculator-help-command)
+* [`calculator mult [MODE] [NUMBERS]`](#calculator-mult-mode-numbers)
+* [`calculator pow [BASE] [EXP]`](#calculator-pow-base-exp)
+* [`calculator sqrt [X]`](#calculator-sqrt-x)
+* [`calculator sub [LHS] [RHS]`](#calculator-sub-lhs-rhs)
 
-## `calculator add [NUMBERS]`
+## `calculator add [MODE] [NUMBERS]`
 
-describe the command here
+Add an set of numbers
 
 ```
 USAGE
-  $ calculator add [NUMBERS]
+  $ calculator add [MODE] [NUMBERS]
 
 ARGUMENTS
+  MODE     choose only these numbers
   NUMBERS  numbers to add, variadic
 
 EXAMPLES
   $ calculator add 2 2
   $ calculator add 42 200 404
+  $ calculator add even 2 1 2 1
+  $ calculator add odd 2 1 2 1
 ```
 
 _See code: [src\commands\add.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\add.ts)_
+
+## `calculator div [LHS] [RHS]`
+
+Divide two numbers (LHS - RHS)
+
+```
+USAGE
+  $ calculator div [LHS] [RHS]
+
+ARGUMENTS
+  LHS  left hand side
+  RHS  right hand side
+
+EXAMPLES
+  $ calculator div 10 2
+  $ calculator div 3 2
+```
+
+_See code: [src\commands\div.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\div.ts)_
 
 ## `calculator help [COMMAND]`
 
@@ -65,4 +88,82 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src\commands\help.ts)_
+
+## `calculator mult [MODE] [NUMBERS]`
+
+Multiply an set of numbers
+
+```
+USAGE
+  $ calculator mult [MODE] [NUMBERS]
+
+ARGUMENTS
+  MODE     choose only these numbers
+  NUMBERS  numbers to multiply, variadic
+
+EXAMPLES
+  $ calculator mult 5 2
+  $ calculator mult 10 20 30
+  $ calculator mult even 4 3 4 3
+  $ calculator mult odd 4 3 4 3
+```
+
+_See code: [src\commands\mult.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\mult.ts)_
+
+## `calculator pow [BASE] [EXP]`
+
+Power two numbers (base ^ exponent)
+
+```
+USAGE
+  $ calculator pow [BASE] [EXP]
+
+ARGUMENTS
+  BASE  base
+  EXP   exponent
+
+EXAMPLES
+  $ calculator pow 2 4
+  $ calculator pow 3 2
+  $ calculator pow 5 0
+```
+
+_See code: [src\commands\pow.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\pow.ts)_
+
+## `calculator sqrt [X]`
+
+Square root a numbers (sqrt(x))
+
+```
+USAGE
+  $ calculator sqrt [X]
+
+ARGUMENTS
+  X  Number to take its square root
+
+EXAMPLES
+  $ calculator sqrt 4
+  $ calculator sqrt 9
+  $ calculator sqrt 9.87
+```
+
+_See code: [src\commands\sqrt.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\sqrt.ts)_
+
+## `calculator sub [LHS] [RHS]`
+
+Subtract two numbers (LHS - RHS)
+
+```
+USAGE
+  $ calculator sub [LHS] [RHS]
+
+ARGUMENTS
+  LHS  left hand side
+  RHS  right hand side
+
+EXAMPLE
+  $ calculator sub 5 2
+```
+
+_See code: [src\commands\sub.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\sub.ts)_
 <!-- commandsstop -->
