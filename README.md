@@ -28,45 +28,26 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`calculator add [FILE]`](#calculator-add-file)
-* [`calculator hello [FILE]`](#calculator-hello-file)
+* [`calculator add [NUMBERS]`](#calculator-add-numbers)
 * [`calculator help [COMMAND]`](#calculator-help-command)
 
-## `calculator add [FILE]`
+## `calculator add [NUMBERS]`
 
 describe the command here
 
 ```
 USAGE
-  $ calculator add [FILE]
+  $ calculator add [NUMBERS]
 
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+ARGUMENTS
+  NUMBERS  numbers to add, variadic
+
+EXAMPLES
+  $ calculator add 2 2
+  $ calculator add 42 200 404
 ```
 
 _See code: [src\commands\add.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\add.ts)_
-
-## `calculator hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ calculator hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ calculator hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src\commands\hello.ts](https://github.com/oscaramos/calculator/blob/v0.0.0/src\commands\hello.ts)_
 
 ## `calculator help [COMMAND]`
 
