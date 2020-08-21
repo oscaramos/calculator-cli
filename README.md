@@ -17,7 +17,6 @@ From app ideas. Read their [README](./README_IDEA.md).
 Also, this is my first [npm package](https://www.npmjs.com/package/@oscaramos/calculator).
 
 # Usage
-<!-- usage -->
 ```sh-session
 $ npm install -g @oscaramos/calculator
 $ calculator COMMAND
@@ -29,6 +28,14 @@ USAGE
   $ calculator COMMAND
 ...
 ```
+
+Or simpler with npx
+``` sh-session
+$ npx @oscaramos/calculator --help [COMMAND]
+$ npx @oscaramos/calculator add 2 2
+$ npx @oscaramos/calculator pow 4 3
+```
+
 <!-- usagestop -->
 # Commands
 <!-- commands -->
